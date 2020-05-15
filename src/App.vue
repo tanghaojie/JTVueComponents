@@ -1,7 +1,13 @@
 <template>
   <div id="app" class="app">
+    <loading1
+      style="width: 150px; height: 120px; background-color: blue;"
+      class="m-30"
+    />
     <loading2
-    style="width: 150px; height: 120px; background-color: blue;" />
+      style="width: 150px; height: 120px;"
+      class="m-30"
+    />
   </div>
 </template>
 
@@ -22,6 +28,9 @@ export default {
 </script>
 
 <style>
+.m-30 {
+  margin: 30px;
+}
 .inner {
   margin: 0 auto;
   width: 100%;
@@ -39,7 +48,7 @@ export default {
 .app {
   width: 100%;
   height: 100%;
-  background-color: green;
+  background-color: white;
 }
 
 body,
